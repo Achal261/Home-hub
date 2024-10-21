@@ -1,0 +1,46 @@
+/*page5 css code*/
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Gallery container styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Padding around the gallery */
+}
+
+/* Individual item styles */
+.item {
+    background-color: #fff; /* White background for items */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center align text */
+    max-width: 200px; /* Limit width of each item */
+    overflow: hidden; /* Hide overflow */
+}
+
+/* Image styles */
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-bottom: 1px solid #ccc; /* Border below the image */
+}
+
+/* Title styles */
+h3 {
+    margin: 10px 0; /* Margin around titles */
+    color: #555; /* Dark gray color for titles */
+}
